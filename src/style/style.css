@@ -1,7 +1,8 @@
 .home{
-    background-color: white;
+    padding: 1rem;
+    
+    
 }
-
 .navbar{
     background-color: white;
     justify-content: space-between;
@@ -11,6 +12,75 @@
     font-family: 'urbanist', sans-serif;
     font-weight: 600;
     color: rgb(24, 33, 160);
+    border-radius:2rem;
+}
+.profile{
+    padding: 2rem 4rem;
+    height: 55rem;
+}
+.profile h3{
+    font-size: 1.5rem;
+}
+.profile p{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.profile img{
+    width: 25rem;
+    height: 40rem;
+    border-radius: 2rem;
+   
+
+   
+}
+.profile-image{
+    width: 25rem;
+    height: 40rem;
+    border-radius: 2rem;
+    box-shadow: 0 0px 2rem rgba(0, 0, 0, 0.5);
+  
+    position: relative  ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.profile-info{
+
+    height: 40rem;
+    position: relative  ;
+    top:50%;
+    transform: translateY(-50%);
+    
 }
 
 
+.name{
+    font-size: 2.5rem;
+    color: rgb(24, 33, 160);
+    font-weight: 700;
+    font-family: 'urbanist', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+   
+}
+.status{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'urbanist', sans-serif;
+    text-transform: capitalize;
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+
+  
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'urbanist', sans-serif;
+    text-transform: capitalize;
+
+}

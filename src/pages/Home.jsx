@@ -1,11 +1,12 @@
 import '../style/style.css';
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Profile from '../components/Profile';
 function Home() {
   return (
-    <div >
+    <div className='home' >
       <NavBar />
-      
+      <Profile />
     </div>
   );
 }
