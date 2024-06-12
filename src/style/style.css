@@ -1,0 +1,16 @@
+.home{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'urbanist', sans-serif;
+    font-weight: 600;
+    color: rgb(24, 33, 160);
+}
+
+
