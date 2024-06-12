@@ -1,7 +1,19 @@
 .home{
-    padding: 1rem;
+    padding: 0rem 1rem;
     
     
+}
+html{
+    scroll-behavior: smooth;
+}
+.home h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'urbanist', sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160);
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
 }
 .navbar{
     background-color: white;
@@ -13,10 +25,14 @@
     font-weight: 600;
     color: rgb(24, 33, 160);
     border-radius:2rem;
+    position: sticky;
+    top: 2rem;
+    z-index: 1000;
 }
 .profile{
+   
     padding: 2rem 4rem;
-    height: 55rem;
+    height: 65rem;
 }
 .profile h3{
     font-size: 1.5rem;
@@ -83,4 +99,49 @@
     font-family: 'urbanist', sans-serif;
     text-transform: capitalize;
 
+}
+
+
+.cursus{
+    padding: 10rem 4rem;
+   
+}
+
+.cursus-item{
+    padding: 10rem 4rem 0rem 4rem;
+    
+}
+.cursus-item h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'urbanist', sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160);
+    padding: 0 2rem 2rem 2rem;
+    text-align: left;
+}
+.cursus-item p{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.cursus-item img{
+    width: 55rem;
+    height: 20rem;
+    border-radius: 2rem;
+    box-shadow: 0 0px 2rem rgba(0, 0, 0, 0.5);
+    position: relative  ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bac-img{
+    width: 55rem !important;
+    height: 25rem !important;
+    padding: 0rem 0rem;
+    border-radius: 0rem !important;
+    box-shadow: 0 0px 2rem rgba(0, 0, 0, 0.5) !important;
 }

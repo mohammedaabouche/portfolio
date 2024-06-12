@@ -3,7 +3,7 @@ import "../style/style.css";
 import profileImage from "../assets/profile.jpeg";
 function Profile() {
   return (
-    <div className="profile grid grid-cols-12 gap-2">
+    <div id="About Me" className="profile grid grid-cols-12 gap-2">
       <div className="profile-image col-span-4">
         <img
           src={profileImage}
