@@ -116,6 +116,11 @@ function Skills() {
           level: "Intermediate",
           icon: require("../assets/icons/bootstrap-original.svg").default,
         },
+        {
+          name: "Prisma",
+          level: "Intermediate",
+          icon: require("../assets/icons/prisma-original.svg").default,
+        }
       ],
     },
     {
@@ -232,7 +237,7 @@ function Skills() {
       {mySkills.map((skill, index) => (
         <div key={index} className="skills-item">
           <h1 className="title">{skill.title}</h1>
-          <ul className="grid grid-cols-3">
+          <ul className="grid grid-cols-5 ">
             {skill.skills.map((skil1, index) => (
               <div className="" key={index}>
                 {skil1.icon !== "" && <img src={skil1.icon} alt="" />}
