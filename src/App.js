@@ -5,7 +5,11 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <h1>salm</h1>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+    </Router>
 
   );
 }
